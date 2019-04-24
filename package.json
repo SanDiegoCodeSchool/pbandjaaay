@@ -1,0 +1,43 @@
+{
+  "name": "pbandjaaay",
+  "version": "0.9.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=8.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "dev": "nodemon server/server",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^3.10.0",
+    "loopback": "^3.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^6.2.0",
+    "nodemon": "^1.18.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "PB and Jelly are awesome like React and Loopback."
+}
